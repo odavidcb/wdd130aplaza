@@ -10,9 +10,9 @@
     --paragraph-font: 'Merriweather', serif;
   
     --nav-background-color: #396e94;
-    --nav-link-color: #aabd8c;
+    --nav-link-color: #XXXXXX;
     --nav-hover-link-color: #381d2a;
-    --nav-hover-background-color: #a43312;
+    --nav-hover-background-color: ;
   }
 
   body {
@@ -36,23 +36,23 @@
   }
   
   nav {
-    background-color: var(#396e94);
+    background-color: var(#eee);
     font-size: 1.2rem;
     display: flex;
   }
   
   nav a {
     display: block;
-    color: var(#aabd8c);
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
   }
   
   nav a:link, nav a:visited {
-    color: var(#aabd8c);
+    color: var(--nav-link-color);
   }
   
   nav a:hover {
-    color: var(#381d2a);
-    background-color: var(#a43312);
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
   }
