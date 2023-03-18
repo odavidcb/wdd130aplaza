@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 12px;
+  font-family: Roboto, Aeial, sans-serif;
+}
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -6,32 +16,34 @@ nav {
 nav a{
     color: white;
     display: block;
-    padding: 20px00;
+    padding: 18px;
 }
 
 h1 {
     color: steelblue;
+    padding: .5rem;
 }
 
-img {
+main {
+  max-width: 640px;
+}
+
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
+    float:right;
+    margin:0 0 1rem 1rem;
     box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 10px;
+    margin: 1rem;
 }
 
 aside {
     width: 20em;
-    margin: 1em;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* why use rgba instead of hex here? */
-    padding: 1em;
-    background-color: #eee;
-    color: #333;
     text-align: center;
   }
 
@@ -40,15 +52,32 @@ aside img {
     height: auto;
   } 
 
-  main img {
-    width: 150px;
-    height: auto;
-  } 
-  
-  p { padding: 0;}
+aside h2{
+  position: sticky;
+  top: 5px;
+  left:5px;
 
+  }
+
+    
   footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
   }
+
+  /* Class Selectors */ 
+
+  .box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0,.1);
+    padding: 1rem;
+    background-color: cadetblue;
+    color: #000;
+  }
+
+  .indent{
+    padding-left: 2rem;
+  }
+
+ 
