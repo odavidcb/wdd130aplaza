@@ -1,7 +1,10 @@
 @import 
 
+root {
 
-.hero img {
+}
+.hero h1{
+    position: absolute;
     display: block;
     width: 100%;
     height: auto;
